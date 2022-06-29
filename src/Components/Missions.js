@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { FetchMissions } from '../redux/missions/MissionSlice';
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions);
@@ -23,7 +22,7 @@ const Missions = () => {
         </thead>
         <tbody>
           {
-            missions.map((mission) => <MissionCard key={mission.mission_id} mission={mission} />)
+            missions.map((mission) => <id key={mission.mission_id} mission={mission} />)
           }
         </tbody>
       </table>
