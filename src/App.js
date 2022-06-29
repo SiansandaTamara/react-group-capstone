@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Missions from './components/Missions';
-import Rockets from './components/Rockets';
+import Missions from './Components/Missions';
 import './App.css';
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Rockets />} />
         <Route path="/missions" element={<Missions />} />
-        <Route path="/my-profile" element={<Profiles />} />
       </Routes>
     </div>
   );
