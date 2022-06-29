@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import MissionCard from './Pages/MissionCard';
 import { FetchMissions } from '../redux/missions/MissionSlice';
 
 const Missions = () => {
