@@ -1,19 +1,11 @@
+const FETCH_ROCKETS = 'react-capstone1/rockets/FETCH_ROCKETS';
 
+export const fetchedRockets = (payload) => ({
+  type: FETCH_ROCKETS, payload,
+});
 
-const FETCH_ROCKETS ='react-capstone1/rockets/FETCH_ROCKETS';
+const RocketsReducer = () => (
+  <div>RocketsReducer</div>
+);
 
-export const fetchedRockets = (payload) => {
- return {
-   type: FETCH_ROCKETS, payload
- }
-}
-
-
-
-const RocketsReducer = () => {
-  return (
-    <div>RocketsReducer</div>
-  )
-}
-
-export default RocketsReducer
+export default RocketsReducer;

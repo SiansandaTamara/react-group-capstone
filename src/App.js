@@ -4,15 +4,15 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <>
-    <Navbar/>
-    {/* <Router>
+      <Navbar />
+      {/* <Router>
       <Routes>
         <Route path='/' exact element ={<Myprofile />} />
       </Routes>
     </Router> */}
-    
+
     </>
-  )
+  );
 }
 
 export default App;
