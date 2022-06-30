@@ -1,17 +1,16 @@
-/* eslint-disable */
 import {
-  applyMiddleware, compose, combineReducers,createStore,
-} from 'redux';
+    applyMiddleware, compose, combineReducers, createStore,
+  } from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import rocketReducer from './rockets/rockets';
-import missionReducer from './Missions/MissionSlice';
+import missionReducer from './Missions/MissonSlice';
 
 const rootReducers = combineReducers({
-  missions: missionReducer,
-  rockets: rocketReducer,
-});
+  Missions: MissionReducer,
+    rockets: rocketReducer,
+  });
 
-const store = createStore(rootReducers, compose(applyMiddleware(thunk, logger)));
+  const store = createStore(rootReducers, compose(applyMiddleware(thunk, logger)));
 
 export default store;

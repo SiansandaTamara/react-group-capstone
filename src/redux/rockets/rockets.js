@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const DISPLAY_ROCKET = 'react-redux-group-project/rockets/DISPLAY_ROCKET';
+const DISPLAY_ROCKET = './src/redux/rockets/rockets/DISPLAY_ROCKET';
 const baseUrl = 'https://api.spacexdata.com/v3/rockets';
-const RESERVE_ROCKET = 'react-redux-group-project/rockets/RESERVE_ROCKET';
-const REMOVE_RESERVATION = 'react-redux-group-project/rockets/REMOVE_RESERVATION';
+const RESERVE_ROCKET = './src/redux/rockets/rockets/RESERVE_ROCKET';
+const REMOVE_RESERVATION = './src/redux/rockets/rockets/REMOVE_RESERVATION';
 
 const initialState = [];
 
