@@ -18,6 +18,7 @@ export const changeStatusMission = (state, id) => {
     if (mission.mission_id !== id) return mission;
     return { ...mission, reserved: !mission.reserved };
   });
+
   return newState;
 };
 export const FetchMissions = () => async (dispatch) => {
