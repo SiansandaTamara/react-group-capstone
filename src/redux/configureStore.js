@@ -1,10 +1,11 @@
+/* eslint-disable */
 import {
   applyMiddleware, compose, combineReducers,createStore,
 } from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import rocketReducer from './rockets/rockets';
-import missionReducer from './missions/MissionSlice';
+import missionReducer from './Missions/MissionSlice';
 
 const rootReducers = combineReducers({
   missions: missionReducer,
