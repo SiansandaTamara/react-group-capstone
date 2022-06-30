@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
@@ -6,6 +7,11 @@ import Profiles from './components/Profiles';
 import Rockets from './components/Rockets';
 import { FetchMissions } from './redux/missions/MissionSlice';
 import { displayRocket, reserveRocket, cancelReserve } from './redux/rockets/rockets';
+
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Missions from './Components/Missions';
+
 import './App.css';
 
 function App() {
@@ -30,6 +36,9 @@ function App() {
         <Route path="/" element={<Rockets reserveRocketClick={reserveRocketClick} cancelReserveClick={cancelReserveClick} />} />
         <Route path="/missions" element={<Missions />} />
         <Route path="/my-profile" element={<Profiles />} />
+
+        <Route path="/missions" element={<Missions />} />
+
       </Routes>
     </div>
   );
