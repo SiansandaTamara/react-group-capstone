@@ -1,5 +1,6 @@
 /* eslint-disable */
 import { useSelector } from 'react-redux';
+import MissionCard from './Pages/MissionCard';
 import './mission.css';
 
 const Missions = () => {

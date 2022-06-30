@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import Missions from './components/Missions';
+import Missions from './Components/Missions';
 import Profiles from './components/Profiles';
 import Rockets from './components/Rockets';
 import { FetchMissions } from './redux/missions/MissionSlice';
