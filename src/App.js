@@ -1,17 +1,15 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Missions from './Components/Missions';
 import './App.css';
-import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      {/* <Router>
+    <div className="App">
       <Routes>
-        <Route path='/' exact element ={<Myprofile />} />
+        <Route path="/missions" element={<Missions />} />
       </Routes>
-    </Router> */}
-
-    </>
+    </div>
   );
 }
 
