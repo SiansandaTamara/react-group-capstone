@@ -9,7 +9,6 @@ import Rockets from './Components/Rockets';
 import './App.css';
 
 function App() {
-
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(FetchMissions());
