@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import Profiles from './components/Profiles';
+import Profiles from './Components/Profiles';
 import { displayRocket, reserveRocket, cancelReserve } from './redux/rockets/rockets';
 import { FetchMissions } from './redux/missions/MissionSlice';
-import Missions from './components/Missions';
-import Rockets from './components/Rockets';
+import Missions from './Components/Missions';
+import Rockets from './Components/Rockets';
 import './App.css';
 
 function App() {
