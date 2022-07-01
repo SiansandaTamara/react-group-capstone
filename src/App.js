@@ -4,8 +4,8 @@ import { useDispatch } from 'react-redux';
 import Profiles from 'src/components/Profiles';
 import { displayRocket, reserveRocket, cancelReserve } from './redux/rockets/rockets';
 import { FetchMissions } from './redux/missions/MissionSlice';
-import Missions from './components/Missions';
-import Rockets from './components/Rockets';
+import Missions from './Components/Missions';
+import Rockets from './Components/Rockets';
 import './App.css';
 
 function App() {
