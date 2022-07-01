@@ -3,8 +3,8 @@ import {
 } from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
+import missionReducer from 'missions/MissionSlice';
 import rocketReducer from './rockets/rockets';
-import missionReducer from './missions/MissionSlice';
 
 const rootReducers = combineReducers({
   missions: missionReducer,
