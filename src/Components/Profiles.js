@@ -1,5 +1,5 @@
 import React from 'react';
-import Profilemission from './profilemission';
+import Profilemission from './Profilemission';
 import RocketList from './Pages/RocketList';
 
 const Profiles = () => (
