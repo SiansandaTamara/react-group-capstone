@@ -9,9 +9,15 @@ const initialState = [];
 
 export const displayRocket = () => async (dispatch) => {
   const response = await axios.get(baseUrl);
+  const rocketData = response.data.map((rocket) => ({
+    id: rocket.id,
+    rocket_name: rocket.rocket_name,
+    description: rocket.description,
+    flickr_images: rocket.flickr_images,
+  }));
   dispatch({
     type: DISPLAY_ROCKET,
-    payload: response.data,
+    payload: rocketData,
   });
 };
 
