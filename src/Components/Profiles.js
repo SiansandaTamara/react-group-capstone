@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react';
 import Profilemission from './Profilemission';
 import RocketList from './Pages/RocketList';
@@ -24,4 +23,4 @@ const Profiles = () => (
     </div>
   </div>
 );
-export default Profiles;
+export default Profiles

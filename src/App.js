@@ -1,9 +1,10 @@
+import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import Missions from './Components/Missions';
-import Profiles from './Components/Profiles';
-import Rockets from './Components/Rockets';
-import { FetchMissions } from './redux/missions/MissionSlice';
+import Profiles from './Components/Rockects';
+import Rockets from './Components/Rockects';
+import { FetchMissions } from './redux/Missions/MissonSlice';
 import { displayRocket, reserveRocket, cancelReserve } from './redux/rockets/rockets';
 import './App.css';
 

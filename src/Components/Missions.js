@@ -1,8 +1,6 @@
-
-/* eslint-disable */
 import { useSelector } from 'react-redux';
-import MissionCard from './Pages/MissionCard';
-import './mission.css';
+
+import './Mission.css';
 
 /*eslint-disable */
 import React, { useEffect } from 'react';
