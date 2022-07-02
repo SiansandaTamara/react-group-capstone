@@ -28,8 +28,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Rockets reserveRocketClick={reserveRocketClick} cancelReserveClick={cancelReserveClick} />} />
-        <Route path="/missions" element={<Missions />} />
-        <Route path="/my-profile" element={<Profiles />} />
+<<<<\
       </Routes>
     </div>
   );
