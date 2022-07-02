@@ -23,4 +23,5 @@ const Profiles = () => (
     </div>
   </div>
 );
-export default Profiles
+
+export default Profiles;

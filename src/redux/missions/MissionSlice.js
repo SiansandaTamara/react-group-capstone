@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const GET_MISSIONS = './src/redux/Missions/Missions/GET_MISSIONS';
-const CHANGE_STATUS = './src/redux/Missions/Missions/Missions/TOGGLE_MISSIONS';
+const GET_MISSIONS = 'react-redux-group-project/Missions/GET_MISSIONS';
+const CHANGE_STATUS = 'react-redux-group-project/Missions/TOGGLE_MISSIONS';
 
 const baseUrl = 'https://api.spacexdata.com/v3/missions';
 
@@ -47,4 +47,4 @@ const missionReducer = (state = [], action) => {
       return state;
   }
 };
-export default MissionReducer;
+export default missionReducer;
