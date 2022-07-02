@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import MissionCard from './Pages/MissionCard';
-import './Mission.css';
+import './mission.css';
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions);
