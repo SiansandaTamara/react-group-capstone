@@ -1,62 +1,81 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Space trveller web App
 
-# Project Name
+> In this task, we developed a space traveller service with the real live data from the SpaceX API. The task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions as well as unsubcribe to the missions.
 
-> Description the project.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
+- React
+- SpaceX API
 
-## Live Demo (if available)
+## Live Demo 
+[Live Demo Link]()
 
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Web browser
+- Code editor
+
 ### Setup
 
-### Install
 
-### Usage
+```bash
+npm install
+```
 
-### Run tests
+```bash
+npm build
+```
 
-### Deployment
+```bash
+npm start
+```
+
+### Run the following commands to run linter tests
+
+
+StyleLint
+```bash
+npx stylelint "**/*.{css,scss}"
+```
+
+ESLint
+```bash
+npx eslint .
+```
 
 
 
 ## Authors
 
+
 👤 **Author1**
+👤 **Tamara Siansanda**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@SiansandaTamara](https://github.com/SiansandaTamara)
+- Twitter: [@twitterhandle](https://twitter.com/TamaraSiansanda)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+ ## Authors
 
-## 🤝 Contributing
+👤 **Ezeoke Stanley Ifeanyi**
 
-Contributions, issues, and feature requests are welcome!
+- GitHub: [@Stanleeeeee](https://github.com/Stanleeeeee)
+- Twitter: [@Stanmega89](https://twitter.com/Stanmega89)
+- LinkedIn: [@stanley-ezeoke](https://www.linkedin.com/in/stanley-ezeoke-898b7b115/)
 
-Feel free to check the [issues page](../../issues/).
+
 
 ## Show your support
 
@@ -65,9 +84,12 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/SiansandaTamara/react-group1-project/blob/dev/LICENSE) licensed.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
