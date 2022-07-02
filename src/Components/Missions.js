@@ -1,7 +1,13 @@
+
 /* eslint-disable */
 import { useSelector } from 'react-redux';
 import MissionCard from './Pages/MissionCard';
 import './mission.css';
+
+/*eslint-disable */
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions);
@@ -19,6 +25,7 @@ const Missions = () => {
         <tbody>
           {
             missions.map((mission) => <MissionCard key={mission.mission_id} mission={mission} />)
+            missions.map((mission) => <id key={mission.mission_id} mission={mission} />)
           }
         </tbody>
       </table>
