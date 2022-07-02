@@ -1,39 +1,116 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
 .App {
-  text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar,
+.nav-links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+}
+
+.navbar h3 {
+  padding-right: 36%;
+}
+
+.nav-links {
+  list-style: none;
+  gap: 12px;
+  padding: 6px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+}
+
+.navLogo {
+  width: 10%;
+  height: auto;
+  padding: 0 2% 0 2%;
+}
+
+.missionNav {
+  border-right: 2px solid rgb(44, 44, 204);
+  padding-right: 5px;
+}
+
+.nav-links li .active {
+  text-decoration: underline;
+}
+
+.rocketImg img {
+  width: 90%;
+  height: auto;
+  padding: 10px 0 0 35px;
+}
+
+.row2 {
+  padding: 12px 0;
+}
+
+.rockBtn {
+  background-color: blue;
   color: white;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.reserved {
+  background-color: rgb(10, 146, 191);
+  color: white;
+  margin-right: 10px;
+  padding: 1px 3px;
+  border-radius: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.rockCancel {
+  border: 1px solid;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.missionList,
+.rocketList {
+  border: solid 0.5px rgb(208, 203, 203);
+  font-size: large;
+}
+
+.rocketList {
+  border: solid 0.5px rgb(208, 203, 203);
+  font-size: large;
+}
+
+.rocketList li {
+  list-style: none;
+  border-bottom: solid 0.5px rgb(208, 203, 203);
+  display: block;
+}
+
+.rocketList ul {
+  padding: 0;
+  margin: 0;
 }
