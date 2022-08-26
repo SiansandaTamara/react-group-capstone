@@ -13,7 +13,7 @@
 - SpaceX API
 
 ## Live Demo 
-[Live Demo Link](/)
+[Live Demo Link](https://heartfelt-klepon-b23c64.netlify.app/)
 
 
 
